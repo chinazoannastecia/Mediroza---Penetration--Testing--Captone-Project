@@ -17,13 +17,14 @@ Testing was conducted with written authorization from the client as part of a co
 | Public facing web application behavior | Denial of service testing |
 | Patient portal and discovered paths within the agreed domain | Any testing outside the agreed domain |
 
-Methodology
+#**Methodology*
+
 The assessment followed a structured black box methodology:
 
-#*Reconnaissance* - Passive information gathering using publicly available information and web-based tools.
-#*Vulnerability identification* - Analysis of application behavior for authentication and input-handling weaknesses.
-*#Controlled exploitation* - Demonstration of each issue's impact within the authorized environment.
-#*Documentation* - Recording of findings, evidence, and remediation recommendations.
+#**Reconnaissance* - Passive information gathering using publicly available information and web-based tools.
+#**Vulnerability identification* - Analysis of application behavior for authentication and input-handling weaknesses.
+#**Controlled exploitation* - Demonstration of each issue's impact within the authorized environment.
+#**Documentation* - Recording of findings, evidence, and remediation recommendations.
 ## **Tools Used**
 
 | Tool | Purpose in the assessment |
