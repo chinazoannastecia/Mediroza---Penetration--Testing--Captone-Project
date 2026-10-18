@@ -17,14 +17,14 @@ Testing was conducted with written authorization from the client as part of a co
 | Public facing web application behavior | Denial of service testing |
 | Patient portal and discovered paths within the agreed domain | Any testing outside the agreed domain |
 
-#**Methodology*
+#**Methodology**
 
 The assessment followed a structured black box methodology:
 
-#**Reconnaissance* - Passive information gathering using publicly available information and web-based tools.
-#**Vulnerability identification* - Analysis of application behavior for authentication and input-handling weaknesses.
-#**Controlled exploitation* - Demonstration of each issue's impact within the authorized environment.
-#**Documentation* - Recording of findings, evidence, and remediation recommendations.
+#**Reconnaissance** - Passive information gathering using publicly available information and web-based tools.
+#**Vulnerability identification** - Analysis of application behavior for authentication and input-handling weaknesses.
+#**Controlled exploitation** - Demonstration of each issue's impact within the authorized environment.
+#**Documentation** - Recording of findings, evidence, and remediation recommendations.
 ## **Tools Used**
 
 | Tool | Purpose in the assessment |
@@ -37,7 +37,8 @@ The assessment followed a structured black box methodology:
 | ExifTool | Reading hidden metadata from PDFs |
 | Wget | Downloading files from the web server in the controlled test |
 | ChatGPT | Converting raw SQL data into readable tables during analysis |
-#*Executive summary*
+
+#**Executive summary**
 The target's security posture was assessed as poor. A chain of individually preventable weaknesses enabled an unauthenticated attacker to progress from reconnaissance to patient-document access and, ultimately, access to a database backup exposed through a publicly listed directory.
 
 The database extract contained sensitive information for 30 hospital employees and ownership information for 10 shareholders. To protect privacy, this README intentionally does not reproduce names, contact details, national ID numbers, salary figures, or ownership percentages from that extract.
