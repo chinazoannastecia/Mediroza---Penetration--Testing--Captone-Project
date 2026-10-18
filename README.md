@@ -45,12 +45,25 @@ The database extract contained sensitive information for 30 hospital employees a
 
 Immediate remediation is recommended for all Critical and High findings.
 
-#*Findings summary*
-ID	Finding	Location	Risk
-F-01	Username enumeration on login page	patient/login.php	🟡 Medium
-F-02	SQL injection login bypass	patient/login.php	🔴 Critical
-F-03	Encrypted PDFs accessible after login bypass	patient/reports/	🟠 High
-F-04	Weak PDF passwords crackable with a wordlist	patient_report_*.pdf	🟠 High
-F-05	Sensitive metadata left in patient PDF files	patient_report_3.pdf	🟡 Medium
-F-06	Forgotten backup folder with directory listing enabled	old/	🔴 Critical
-F-07	Confidential staff salaries and shareholder data in plain text	old/mediroza_db_
+## **Findings summary**
+
+| ID | Finding | Location | Risk |
+| :--- | :--- | :--- | :--- |
+| F-01 | Username enumeration on login page | `patient/login.php` | 🟡 Medium |
+| F-02 | SQL injection login bypass | `patient/login.php` | 🔴 Critical |
+| F-03 | Encrypted PDFs accessible after login bypass | `patient/reports/` | 🟠 High |
+| F-04 | Weak PDF passwords crackable with a wordlist | `patient_report_*.pdf` | 🟠 High |
+| F-05 | Sensitive metadata left in patient PDF files | `patient_report_3.pdf` | 🟡 Medium |
+| F-06 | Forgotten backup folder with directory listing enabled | `old/` | 🔴 Critical |
+| F-07 | Confidential staff salaries and shareholder data in plain text | `old/mediroza_db_backup_2019.sql` | 🔴 Critical |
+## **Detailed findings**
+
+### F-01 - Username enumeration on login page
+**Risk:** 🟡 Medium  
+**Location:** `patient/login.php`
+The patient login page returned different error messages for an unknown username and an incorrect password. This behavior allowed the assessor to confirm that a default administrative username existed, reducing the effort required for a password or authentication attack.
+
+Recommendation: Return one generic failed-login response for every unsuccessful attempt, such as Invalid credentials. Please try again.
+
+Evidence placeholder:
+
