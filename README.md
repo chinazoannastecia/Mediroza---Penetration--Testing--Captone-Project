@@ -11,3 +11,8 @@ Demonstrate the real world impact of each finding in a controlled manner.
 Document evidence and provide prioritized remediation recommendations.
 Authorization and scope
 Testing was conducted with written authorization from the client as part of a controlled Networkwalks educational exercise.
+| In scope | Exclude from scope |
+| :--- | :--- |
+| https://example.com | Social engineering |
+| Public facing web application behavior | Denial of service testing |
+| Patient portal and discovered paths within the agreed domain | Any testing outside the agreed domain |
