@@ -61,9 +61,7 @@ Immediate remediation is recommended for all Critical and High findings.
 ### F-01 - Username enumeration on login page
 **Risk:** 🟡 Medium  
 **Location:** `patient/login.php`
-The patient login page returned different error messages for an unknown username and an incorrect password. This behavior allowed the assessor to confirm that a default administrative username existed, reducing the effort required for a password or authentication attack.
-
-Recommendation: Return one generic failed-login response for every unsuccessful attempt, such as Invalid credentials. Please try again.
+**Evidence:** Application returned "Username not found" for non-existent users, confirming valid usernames can be enumerated.
 
 Evidence placeholder:
 
