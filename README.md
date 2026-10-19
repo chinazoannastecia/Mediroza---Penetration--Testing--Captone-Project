@@ -66,7 +66,7 @@ Immediate remediation is recommended for all Critical and High findings.
 Evidence placeholder:
 ### F-01 - Common SQL Injection
 
-![F-01 evidence](F-01.png)
+(F-01.png)
 
 
 
