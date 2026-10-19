@@ -6,7 +6,7 @@ Seven findings, ranging from Medium to Critical, were identified. The central is
 
 # **Objectives**
 Assess the web application from an external, unauthenticated perspective.
-Identify weaknesses in authentication, input handling, file protection, and server configuration.
+Identify weaknesses in authentication, input handling, file protection, and server configuration..
 Demonstrate the real world impact of each finding in a controlled manner.
 Document evidence and provide prioritized remediation recommendations.
 # **Authorization and scope**
