@@ -84,6 +84,9 @@ After the controlled authentication bypass, the patient portal exposed three dow
 Recommendation: Store files outside the web root and deliver them only through server-side authorization checks.
 
 Evidence placeholder:
+<img width="1360" height="736" alt="LAB REPORT" src="https://github.com/user-attachments/assets/6b8ebbf7-3f43-4df6-8fdc-ecd35c8bcfb9" />
+
+
 
 
 
