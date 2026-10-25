@@ -64,7 +64,8 @@ Immediate remediation is recommended for all Critical and High findings.
 **Evidence:** Application returned "Username not found" for non-existent users, confirming valid usernames can be enumerated.
 
 Evidence placeholder:
-### F-01 - Common SQL Injection
+<img width="1365" height="716" alt="Screenshot 2026-10-18 051823" src="https://github.com/user-attachments/assets/cc0f56b5-9b03-4334-bc52-ea082e391d0d" />
+
 
 
 F-02 - SQL injection login bypass
