@@ -96,6 +96,18 @@ Evidence placeholder:
 
 <img width="1354" height="709" alt="Screenshot 2026-10-31 011908" src="https://github.com/user-attachments/assets/7342db61-db26-4fd0-80d4-b3fa59c30c23" />
 
+F-07 - Confidential staff salaries and shareholder data in plain text
+Risk: 🔴 Critical
+Affected asset: old/mediroza_db_backup_2019.sql
+
+The exposed database backup contained plain-text staff and shareholder information. The staff data included employee names, roles, contact information, national IDs, and monthly salaries; the shareholder data included names, percentages, and share classes. This README deliberately summarizes the exposure rather than reproducing the sensitive records.
+
+Recommendation: Remove the publicly accessible backup, protect stored backups with strict access controls, and review backup handling, retention, and encryption practices.
+<img width="1357" height="718" alt="Screenshot 2026-10-22 123820" src="https://github.com/user-attachments/assets/84e3ea78-e002-4ec5-9181-bfa40dcd707e" />
+
+
+Evidence placeholder:
+
 
 
  
