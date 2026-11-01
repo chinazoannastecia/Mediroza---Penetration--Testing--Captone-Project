@@ -85,10 +85,9 @@ Recommendation: Store files outside the web root and deliver them only through s
 
 Evidence placeholder:
 <img width="1360" height="736" alt="LAB REPORT" src="https://github.com/user-attachments/assets/6b8ebbf7-3f43-4df6-8fdc-ecd35c8bcfb9" />
+
 F-04 - Weak PDF passwords crackable with a wordlist
 Risk: 🟠 High
-Affected assets: patient_report_*.pdf<img width="1354" height="709" alt="Screenshot 2026-10-31 011908" src="https://github.com/user-attachments/assets/99c55ed3-1873-4921-a7d6-e98b68ca3636" />
-
 
 All three PDFs were password protected, but the passwords were weak and present in commonly available wordlists. Two reports were recovered with the built-in 100-word list, while the third required a larger John the Ripper default password list. Password protection did not provide meaningful security for the medical documents.
 
@@ -96,7 +95,10 @@ Recommendation: If passwords are retained, enforce a minimum length of 12 charac
 
 Evidence placeholder:
 
-![Uploading Screenshot 2026-10-31 011908.png…]()
+<img width="1354" height="709" alt="Screenshot 2026-10-31 011908" src="https://github.com/user-attachments/assets/7342db61-db26-4fd0-80d4-b3fa59c30c23" />
+
+
+
  
 
 
