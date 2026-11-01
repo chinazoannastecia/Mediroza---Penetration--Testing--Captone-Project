@@ -66,8 +66,6 @@ Immediate remediation is recommended for all Critical and High findings.
 Evidence placeholder:
 <img width="1365" height="716" alt="Screenshot 2026-10-18 051823" src="https://github.com/user-attachments/assets/cc0f56b5-9b03-4334-bc52-ea082e391d0d" />
 
-
-
 F-02 - SQL injection login bypass
 Risk: 🔴 Critical
 Location: patient/login.php
@@ -75,6 +73,7 @@ Location: patient/login.php
 The login form appeared to place user-controlled input directly into a database query. A controlled test produced a MySQL syntax error, confirming that the field was injectable. The assessment then demonstrated that the password check could be bypassed and an administrative session obtained without valid credentials.
 
 Recommendation: Replace dynamic query construction with parameterized queries or prepared statements. This is the most important remediation in this report.
+
 F-03 - Confidential PDFs accessible after login bypass
 Risk: 🟠 High
 Location: patient/reports/
